@@ -1,3 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 #google-form {
     background-color: #fff;
     padding: 2rem;
@@ -14,17 +66,4 @@
 
 #google-form p {
     margin-bottom: 1rem;
-}
-
-#google-form button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-#google-form button:hover {
-    background-color: #45a049;
 }
