@@ -1,117 +1,185 @@
-/* General Styles */
+/* style.css */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #FFFFFF; /* White background */
-    color: #333; /* Default text color */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 header {
-    background-color: #F6FF00; /* Yellow header */
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0 20px;
-}
-
-.nav-content {
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-    height: 40px; /* Adjust as needed */
-    animation: logo-animation 2s infinite;
+  height: 40px;
 }
 
-.site-title {
-    font-size: 1.5rem;
-    margin-left: 10px;
-    color: #000; /* Black color for site title */
+.search-bar {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes logo-animation {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
-main {
-    padding: 20px;
-    text-align: center;
-    max-width: 1200px; /* Added to keep content width */
-    margin: 0 auto; /* Center content */
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.banner {
-    margin: 20px 0;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.banner img {
-    width: 100%;
-    max-width: 900px; /* Adjust banner width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover;
-    margin: 0 auto;
+nav li {
+  margin-left: 20px;
 }
 
-.google-form {
-    margin: 20px 0;
+nav a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-.google-form a {
-    color: #000; /* Black color for link */
-    text-decoration: none;
-    font-weight: bold;
+.hero {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.google-form a:hover {
-    color: #FF0000; /* Red color on hover */
-    text-decoration: underline;
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
-.social-media {
-    margin: 40px 0;
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.social-media h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #000; /* Black color for heading */
+.hero h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
-.social-media a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000; /* Black color for links */
-    font-size: 1.5rem;
-    transition: color 0.3s;
+.perks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.social-media a:hover {
-    color: #FF0000; /* Red color on hover */
+.perk {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.perk img {
+  margin-right: 10px;
+}
+
+.perk p {
+  margin: 0;
+}
+
+.hero-image {
+  width: 500px;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.filter-section {
+  padding: 50px 0;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.more-filters {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sort-by {
+  margin-bottom: 20px;
+}
+
+.sort-by select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.whatsapp-button {
+  margin-bottom: 20px;
+}
+
+.whatsapp-button img {
+  width: 40px;
+}
+
+.clear-filters {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 footer {
-    background-color: #F6FF00; /* Yellow footer */
-    color: #000; /* Black text color for contrast */
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
