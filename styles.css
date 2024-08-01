@@ -12,19 +12,32 @@ header {
     background-color: #F6FF00; /* Yellow header */
     padding: 20px 0;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 nav {
     width: 100%;
+    max-width: 1200px;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
     height: 50px; /* Adjust as needed */
-    margin-left: 20px;
     animation: logo-animation 2s infinite;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: #000; /* Black color for site title */
 }
 
 @keyframes logo-animation {
@@ -50,6 +63,7 @@ main {
     max-width: 1920px;
     height: 533px;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .google-form {
