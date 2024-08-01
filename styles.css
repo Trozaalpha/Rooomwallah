@@ -63,7 +63,7 @@ main {
 
 .banner img {
     width: 100%;
-    max-width: 1000px; /* Adjust banner width */
+    max-width: 900px; /* Adjust banner width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover;
     margin: 0 auto;
