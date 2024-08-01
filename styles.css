@@ -9,11 +9,12 @@ body {
 }
 
 header {
-    background-color: #F6FF00; /* Yellow header */
+    background-color: #FFFFFF; /* White background */
     padding: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 nav {
@@ -32,22 +33,12 @@ nav {
 
 .logo img {
     height: 40px; /* Adjust as needed */
-    animation: logo-animation 2s infinite;
+    margin-right: 10px; /* Space between logo and title */
 }
 
 .site-title {
     font-size: 1.5rem;
-    margin-left: 10px;
     color: #000; /* Black color for site title */
-}
-
-@keyframes logo-animation {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
 }
 
 main {
@@ -94,24 +85,28 @@ main {
     color: #000; /* Black color for heading */
 }
 
-.social-media a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000; /* Black color for links */
-    font-size: 1.5rem;
-    transition: color 0.3s;
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
 }
 
-.social-media a:hover {
-    color: #FF0000; /* Red color on hover */
+.social-icons img {
+    width: 40px; /* Icon size */
+    height: 40px; /* Icon size */
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
 }
 
 footer {
-    background-color: #F6FF00; /* Yellow footer */
+    background-color: #FFFFFF; /* White footer */
     color: #000; /* Black text color for contrast */
     padding: 10px 0;
     text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-top: 1px solid #e0e0e0;
 }
