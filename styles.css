@@ -5,14 +5,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #fff8e1; /* Light yellow background */
-    color: #333;
+    color: #333; /* Default text color */
 }
 
 header {
-    background-color: #fbc02d; /* Yellow header */
+    background-color: #F6FF00; /* Yellow header */
     padding: 20px 0;
     text-align: center;
-    color: #fff;
+    color: #000; /* Black text color for contrast */
 }
 
 nav .logo h1 {
@@ -26,8 +26,8 @@ main {
 }
 
 .hero {
-    background: linear-gradient(135deg, #fbc02d, #fdd835); /* Gradient from yellow to a darker yellow */
-    color: #fff;
+    background: linear-gradient(135deg, #F6FF00, #F0F700); /* Gradient from yellow to a slightly different shade */
+    color: #000; /* Black text color for readability */
     padding: 60px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,15 +37,17 @@ main {
 .hero h1 {
     font-size: 2.5rem;
     margin: 0 0 10px;
+    color: #000; /* Black color for hero heading */
 }
 
 .hero p {
     font-size: 1.2rem;
+    color: #000; /* Black color for hero text */
 }
 
 .under-construction {
     font-size: 1.5rem;
-    color: #f57f17; /* Darker yellow for emphasis */
+    color: #FF0000; /* Red color for emphasis */
     margin: 40px 20px;
 }
 
@@ -56,19 +58,19 @@ main {
 .social-media h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #fbc02d; /* Yellow for heading */
+    color: #FF0000; /* Red color for heading */
 }
 
 .social-media a {
     margin: 0 15px;
     text-decoration: none;
-    color: #fbc02d; /* Yellow for links */
+    color: #000; /* Black color for links */
     font-size: 1.5rem;
     transition: color 0.3s;
 }
 
 .social-media a:hover {
-    color: #fdd835; /* Lighter yellow on hover */
+    color: #FF0000; /* Red color on hover */
 }
 
 .contact-form {
@@ -76,18 +78,19 @@ main {
 }
 
 .contact-form a {
-    color: #fbc02d; /* Yellow for link */
+    color: #000; /* Black color for link */
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact-form a:hover {
+    color: #FF0000; /* Red color on hover */
     text-decoration: underline;
 }
 
 footer {
-    background-color: #fbc02d; /* Yellow footer */
-    color: #fff;
+    background-color: #F6FF00; /* Yellow footer */
+    color: #000; /* Black text color for contrast */
     padding: 10px 0;
     text-align: center;
     position: fixed;
