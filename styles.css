@@ -10,9 +10,10 @@ body {
 
 header {
     background-color: #F6FF00; /* Yellow header */
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -20,7 +21,7 @@ nav {
     max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 20px;
 }
 
@@ -30,7 +31,7 @@ nav {
 }
 
 .logo img {
-    height: 50px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
     animation: logo-animation 2s infinite;
 }
 
@@ -52,6 +53,8 @@ nav {
 main {
     padding: 20px;
     text-align: center;
+    max-width: 1200px; /* Added to keep content width */
+    margin: 0 auto; /* Center content */
 }
 
 .banner {
@@ -60,8 +63,8 @@ main {
 
 .banner img {
     width: 100%;
-    max-width: 1920px;
-    height: 533px;
+    max-width: 1000px; /* Adjust banner width */
+    height: auto; /* Maintain aspect ratio */
     object-fit: cover;
     margin: 0 auto;
 }
