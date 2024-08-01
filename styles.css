@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #fff8e1; /* Light yellow background */
     color: #333;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #fbc02d; /* Yellow header */
     padding: 20px 0;
     text-align: center;
     color: #fff;
@@ -26,7 +26,7 @@ main {
 }
 
 .hero {
-    background: linear-gradient(135deg, #007bff, #00c6ff);
+    background: linear-gradient(135deg, #fbc02d, #fdd835); /* Gradient from yellow to a darker yellow */
     color: #fff;
     padding: 60px 20px;
     border-radius: 8px;
@@ -45,7 +45,7 @@ main {
 
 .under-construction {
     font-size: 1.5rem;
-    color: #ff0000;
+    color: #f57f17; /* Darker yellow for emphasis */
     margin: 40px 20px;
 }
 
@@ -56,18 +56,19 @@ main {
 .social-media h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #fbc02d; /* Yellow for heading */
 }
 
 .social-media a {
     margin: 0 15px;
     text-decoration: none;
-    color: #007bff;
+    color: #fbc02d; /* Yellow for links */
     font-size: 1.5rem;
     transition: color 0.3s;
 }
 
 .social-media a:hover {
-    color: #0056b3;
+    color: #fdd835; /* Lighter yellow on hover */
 }
 
 .contact-form {
@@ -75,7 +76,7 @@ main {
 }
 
 .contact-form a {
-    color: #007bff;
+    color: #fbc02d; /* Yellow for link */
     text-decoration: none;
     font-weight: bold;
 }
@@ -85,7 +86,7 @@ main {
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #fbc02d; /* Yellow footer */
     color: #fff;
     padding: 10px 0;
     text-align: center;
